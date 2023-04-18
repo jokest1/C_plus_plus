@@ -1,3 +1,3 @@
-E:/study/study_code/cmake-build-debug/CMakeFiles/study_code.dir
-E:/study/study_code/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/study/study_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/gitCode/study/study_code/cmake-build-debug/CMakeFiles/study_code.dir
+E:/gitCode/study/study_code/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/gitCode/study/study_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -7,6 +7,8 @@
 //将所以测试会用到的头文件都放到了这里不用再重复编写
 #include <string>
 #include <iostream>
-
+#include <vector>
+#include <iterator>
+#include <list>
 using namespace std;
 #endif //STUDY_CODE_TEST_BASE_H
