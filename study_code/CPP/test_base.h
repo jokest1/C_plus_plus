@@ -10,5 +10,12 @@
 #include <vector>
 #include <iterator>
 #include <list>
+#include <map>
+#include <algorithm>
+#include <memory>
+#include <thread>
+#include <windows.h>
+#include <auto_ptr.h>
+#include <vector>
 using namespace std;
 #endif //STUDY_CODE_TEST_BASE_H
