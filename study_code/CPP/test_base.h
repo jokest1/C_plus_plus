@@ -17,5 +17,7 @@
 #include <windows.h>
 #include <auto_ptr.h>
 #include <vector>
+#include <initializer_list>
+#include "boost/type_index.hpp"
 using namespace std;
 #endif //STUDY_CODE_TEST_BASE_H

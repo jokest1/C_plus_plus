@@ -49,15 +49,10 @@ cmake_ninja_workdir = E$:/gitCode/study/study_code/cmake-build-debug/
 
 build cmake_object_order_depends_target_study_code: phony || CMakeFiles/study_code.dir
 
-build CMakeFiles/study_code.dir/CPP/141virtual的默认实参静态绑定.cpp.obj: CXX_COMPILER__study_code_Debug E$:/gitCode/study/study_code/CPP/141virtual的默认实参静态绑定.cpp || cmake_object_order_depends_target_study_code
-  DEP_FILE = CMakeFiles\study_code.dir\CPP\141virtual的默认实参静态绑定.cpp.obj.d
+build CMakeFiles/study_code.dir/CPP/151nullptr与0与NULL.cpp.obj: CXX_COMPILER__study_code_Debug E$:/gitCode/study/study_code/CPP/151nullptr与0与NULL.cpp || cmake_object_order_depends_target_study_code
+  DEP_FILE = CMakeFiles\study_code.dir\CPP\151nullptr与0与NULL.cpp.obj.d
   FLAGS = -Wall -fexec-charset=GBK -g
-  OBJECT_DIR = CMakeFiles\study_code.dir
-  OBJECT_FILE_DIR = CMakeFiles\study_code.dir\CPP
-
-build CMakeFiles/study_code.dir/CPP/142复合而非继承.cpp.obj: CXX_COMPILER__study_code_Debug E$:/gitCode/study/study_code/CPP/142复合而非继承.cpp || cmake_object_order_depends_target_study_code
-  DEP_FILE = CMakeFiles\study_code.dir\CPP\142复合而非继承.cpp.obj.d
-  FLAGS = -Wall -fexec-charset=GBK -g
+  INCLUDES = -IC:/boost_1_82_0
   OBJECT_DIR = CMakeFiles\study_code.dir
   OBJECT_FILE_DIR = CMakeFiles\study_code.dir\CPP
 
@@ -69,9 +64,10 @@ build CMakeFiles/study_code.dir/CPP/142复合而非继承.cpp.obj: CXX_COMPILER__study
 #############################################
 # Link the executable study_code.exe
 
-build study_code.exe: CXX_EXECUTABLE_LINKER__study_code_Debug CMakeFiles/study_code.dir/CPP/141virtual的默认实参静态绑定.cpp.obj CMakeFiles/study_code.dir/CPP/142复合而非继承.cpp.obj
+build study_code.exe: CXX_EXECUTABLE_LINKER__study_code_Debug CMakeFiles/study_code.dir/CPP/151nullptr与0与NULL.cpp.obj
   FLAGS = -Wall -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_PATH = -LC:/boost_1_82_0/libs
   OBJECT_DIR = CMakeFiles\study_code.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
