@@ -13,6 +13,7 @@ public:
 
 int main(){
     Sort st;
-    Timer("test",&st,&Sort::test);
+    std::cout<<"执行到此处"<<std::endl;
+    Timer("test",st,&Sort::test);
     return 0;
 }
