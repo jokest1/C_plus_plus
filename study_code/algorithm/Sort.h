@@ -11,7 +11,8 @@ public:
     Sort(const vector<int> &arrs);
     void BubbleSort1();
     void BubbleSort2();
-
+    void BubbleSort3();
+    void selectSort();
 private:
     vector<int> arrs;
 };
